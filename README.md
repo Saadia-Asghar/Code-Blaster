@@ -58,5 +58,5 @@ Copy code
 
 1. **Clone or download this repository**:
    ```bash
-   git clone https://github.com/yourusername/CodeBlaster.git
+   git clone https://github.com/Saadia-Asghar/Code-Blaster
    cd CodeBlaster
