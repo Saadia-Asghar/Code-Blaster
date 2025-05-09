@@ -30,7 +30,7 @@
 CodeBlaster/ │ 
 ├── src/ 
 │ └── main.cpp # Main game source file │ 
-   ├── resources/ │ 
+   ├── assests/ │ 
        ├── sansation.ttf # Font used in the game │
        ├── explosion-42132.wav # Sound for correct answers │
        ├── buzzer-or-wrong-answer-20582.wav # Sound for incorrect answers │ 
@@ -38,7 +38,9 @@ CodeBlaster/ │
        ├── explosion2.png # Explosion animation spritesheet │ 
        ├── Blue Green Pixel Retro Quiz Trivia Game Presentation.png # Background image │ 
        ├── spaceMeteors_002.png # Home screen image │ 
-       ├── spaceRockets_001.png # Shooter texture │ └── spaceMissiles_009.png # Bullet texture │ └── README.md # This documentation file
+       ├── spaceRockets_001.png # Shooter texture │
+       └── spaceMissiles_009.png # Bullet texture
+│└── README.md # This documentation file
 
 Run
 Copy code
@@ -50,7 +52,8 @@ Copy code
 - C++ compiler supporting C++11 or later
 - [SFML 2.x library](https://www.sfml-dev.org/download.php) installed and linked
 - Compatible development environment (e.g., Visual Studio, Code::Blocks, or g++ command line)
-- Assets placed correctly in the `resources/` folder or paths updated in the code
+- Or download the SFML extension in Visual Studio Professional 2022, use that IDE, add your assets folder to the resources, and replace the main.cpp file.
+- Assets placed correctly in the `assests/` folder or paths updated in the code
 
 ---
 
@@ -59,4 +62,4 @@ Copy code
 1. **Clone or download this repository**:
    ```bash
    git clone https://github.com/Saadia-Asghar/Code-Blaster
-   cd CodeBlaster
+   
