@@ -24,29 +24,6 @@
 - Responsive UI with buttons and mult-line text support.
 - Explosion animation for incorrect answers.
 
----
-
-## Project Structure
-CodeBlaster/ │ 
-├── src/ 
-│ └── main.cpp # Main game source file │ 
-   ├── assests/ │ 
-       ├── sansation.ttf # Font used in the game │
-       ├── explosion-42132.wav # Sound for correct answers │
-       ├── buzzer-or-wrong-answer-20582.wav # Sound for incorrect answers │ 
-       ├── the-world-of-8-bit-games-301273.wav # Background music │
-       ├── explosion2.png # Explosion animation spritesheet │ 
-       ├── Blue Green Pixel Retro Quiz Trivia Game Presentation.png # Background image │ 
-       ├── spaceMeteors_002.png # Home screen image │ 
-       ├── spaceRockets_001.png # Shooter texture │
-       └── spaceMissiles_009.png # Bullet texture
-│└── README.md # This documentation file
-
-Run
-Copy code
-
----
-
 ## Requirements
 
 - C++ compiler supporting C++11 or later
